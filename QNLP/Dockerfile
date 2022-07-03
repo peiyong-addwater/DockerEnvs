@@ -21,6 +21,7 @@ COPY ./requirements.txt /requirements.txt
 # install the python dependencies
 RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
 RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
+RUN pip install --upgrade pip
 RUN pip install -U pip pip-tools && pip install --no-cache-dir -r /requirements.txt && rm -rf /requirements.txt
 RUN pip install -U allennlp
 RUN pip install --upgrade google-cloud-storage
