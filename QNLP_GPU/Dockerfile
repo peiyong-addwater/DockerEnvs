@@ -34,6 +34,8 @@ RUN apt-get update && \
 		lambda-server && \
 	rm -rf /var/lib/apt/lists/*
 RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
+RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
 COPY ./requirements.txt /requirements.txt
 RUN pip install -U pip pip-tools && pip install --no-cache-dir -r /requirements.txt && rm -rf /requirements.txt
 RUN pip install -U allennlp
