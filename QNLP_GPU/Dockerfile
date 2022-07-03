@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-WORKDIR /root/
+WORKDIR /app
 
 # Add libcuda dummy dependency
 ADD control .
@@ -34,7 +34,7 @@ RUN apt-get update && \
 		lambda-server && \
 	rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+
 
 RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
