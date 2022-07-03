@@ -27,9 +27,6 @@ shutup
 SciencePlots
 cirq
 pennylane-cirq
-qiskit[nature]
-qiskit[machine-learning]
-qiskit-machine-learning
 pyscf
 openfermion
 openfermionpyscf
