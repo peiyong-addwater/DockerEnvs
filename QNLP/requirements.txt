@@ -18,7 +18,6 @@ qiskit-terra
 scipy
 Typing
 pennylane
-pennylane-qchem
 jax[cpu]
 pennylane-qiskit
 pennylane-qulacs[cpu]
@@ -31,10 +30,6 @@ pennylane-cirq
 qiskit[nature]
 qiskit[machine-learning]
 qiskit-machine-learning[torch]
-pyscf
-openfermion
-openfermionpyscf
-fqe
 jupyterlab
 ipykernel
 noisyopt
