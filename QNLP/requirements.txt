@@ -40,3 +40,4 @@ ipykernel
 noisyopt
 depccg
 spacy
+nltk
