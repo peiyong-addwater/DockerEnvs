@@ -27,9 +27,7 @@ shutup
 SciencePlots
 cirq
 pennylane-cirq
-qiskit[nature]
 qiskit[machine-learning]
-qiskit-machine-learning[torch]
 jupyterlab
 ipykernel
 noisyopt
