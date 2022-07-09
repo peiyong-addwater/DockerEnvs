@@ -18,7 +18,6 @@ qiskit-terra
 scipy
 Typing
 pennylane
-pennylane-qchem
 pennylane-qiskit
 pennylane-qulacs[gpu]
 pylatex
@@ -27,12 +26,9 @@ shutup
 SciencePlots
 cirq
 pennylane-cirq
-pyscf
-openfermion
-openfermionpyscf
-fqe
 jupyterlab
 ipykernel
 noisyopt
 depccg
 spacy
+nltk

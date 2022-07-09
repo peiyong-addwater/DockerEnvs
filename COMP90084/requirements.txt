@@ -28,6 +28,10 @@ SciencePlots
 cirq
 pennylane-cirq
 qiskit[machine-learning]
+qiskit-nature
+pyscf
+fqe
+scikit-learn
 jupyterlab
 ipykernel
 noisyopt
