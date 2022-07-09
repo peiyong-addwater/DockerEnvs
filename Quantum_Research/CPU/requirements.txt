@@ -40,3 +40,7 @@ ipykernel
 noisyopt
 depccg
 spacy
+nltk
+projectq
+mpi4py
+pennylane_pq
