@@ -18,6 +18,7 @@ qiskit-terra
 scipy
 Typing
 pennylane
+pennylane-qchem
 pennylane-qiskit
 pennylane-qulacs[gpu]
 pylatex
