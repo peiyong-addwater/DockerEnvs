@@ -19,8 +19,8 @@ RUN apt-get -y install build-essential
 # copy the local requirements file to the image
 COPY ./requirements.txt /requirements.txt
 # install the python dependencies
-RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
-RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
+# RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
+# RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
 RUN pip install --upgrade pip
 RUN pip install -U pip pip-tools && pip install --no-cache-dir -r /requirements.txt && rm -rf /requirements.txt
 RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu

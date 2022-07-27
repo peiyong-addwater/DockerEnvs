@@ -1,4 +1,3 @@
-qulacs
 matplotlib
 numpydoc
 qiskit[visualization, machine-learning, optimization, finance, nature]
@@ -10,18 +9,13 @@ Typing
 pennylane
 jax[cpu]
 pennylane-qiskit
-pennylane-qulacs[cpu]
 pylatex
 pylatexenc
 shutup
 SciencePlots
-cirq
-pennylane-cirq
 pyscf
 fqe
 scikit-learn
 jupyterlab
 ipykernel
 noisyopt
-tensorflow==2.4.1
-tensorflow-quantum
