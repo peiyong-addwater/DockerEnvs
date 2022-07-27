@@ -23,11 +23,12 @@ RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
 RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
 RUN pip install --upgrade pip
 RUN pip install -U pip pip-tools && pip install --no-cache-dir -r /requirements.txt && rm -rf /requirements.txt
-RUN pip install -U allennlp allennlp-models
+RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+# RUN pip install -U allennlp allennlp-models
 RUN pip install cached-path==1.1.2
 RUN pip install --upgrade google-cloud-storage
-COPY ./download_depccg_model.py /download_depccg_model.py
-RUN python /download_depccg_model.py
+# COPY ./download_depccg_model.py /download_depccg_model.py
+# RUN python /download_depccg_model.py
 # RUN pip install -U depccg
 # RUN depccg_en download
 # RUN depccg_en download elmo

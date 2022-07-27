@@ -1,17 +1,7 @@
-lambeq[extras]
-discopy
-pytket
-pytket-qiskit
 qulacs
-IBMQuantumExperience
 matplotlib
 numpydoc
-qiskit[machine-learning]
-qiskit-aer
-qiskit-aqua
-qiskit-ibmq-provider
-qiskit-ignis
-qiskit-optimization
+qiskit[visualization, machine-learning, optimization, finance, nature]
 cplex
 networkx
 qiskit-terra
@@ -27,13 +17,11 @@ shutup
 SciencePlots
 cirq
 pennylane-cirq
-qiskit-nature
 pyscf
 fqe
 scikit-learn
 jupyterlab
 ipykernel
 noisyopt
-depccg
-spacy
-nltk
+tensorflow==2.4.1
+tensorflow-quantum
