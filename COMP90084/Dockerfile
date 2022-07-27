@@ -18,6 +18,7 @@ RUN apt-get -y install build-essential
 #    && rm -f Miniconda3-latest-Linux-x86_64.sh 
 # copy the local requirements file to the image
 COPY ./requirements.txt /requirements.txt
+RUN pip install git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
 # install the python dependencies
 # RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
 # RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
