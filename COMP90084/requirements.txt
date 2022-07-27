@@ -6,7 +6,7 @@ qulacs
 IBMQuantumExperience
 matplotlib
 numpydoc
-qiskit
+qiskit[machine-learning]
 qiskit-aer
 qiskit-aqua
 qiskit-ibmq-provider
@@ -27,7 +27,6 @@ shutup
 SciencePlots
 cirq
 pennylane-cirq
-qiskit[machine-learning]
 qiskit-nature
 pyscf
 fqe
