@@ -18,7 +18,6 @@ RUN apt-get -y install build-essential
 #    && rm -f Miniconda3-latest-Linux-x86_64.sh 
 # copy the local requirements file to the image
 COPY ./requirements.txt /requirements.txt
-RUN pip install git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
 # install the python dependencies
 # RUN pip install -U pip pip-tools && pip install --no-cache-dir cython
 # RUN pip install -U pip pip-tools && pip install --no-cache-dir numpy
@@ -28,6 +27,7 @@ RUN pip install torch torchvision torchaudio --extra-index-url https://download.
 # RUN pip install -U allennlp allennlp-models
 RUN pip install cached-path==1.1.2
 RUN pip install --upgrade google-cloud-storage
+RUN pip install git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
 # COPY ./download_depccg_model.py /download_depccg_model.py
 # RUN python /download_depccg_model.py
 # RUN pip install -U depccg
