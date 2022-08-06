@@ -9,12 +9,12 @@ Typing
 pennylane
 jax[cpu]
 pennylane-qiskit
+pennylane-qchem
 pylatex
 pylatexenc
 shutup
 SciencePlots
 pyscf
-fqe
 scikit-learn
 jupyterlab
 ipykernel
