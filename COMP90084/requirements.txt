@@ -3,7 +3,6 @@ numpydoc
 qiskit[visualization, machine-learning, optimization, finance, nature]
 cplex
 networkx
-qiskit-terra
 scipy
 Typing
 pennylane
