@@ -30,8 +30,8 @@ RUN pip install --upgrade google-cloud-storage
 RUN pip install git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
 RUN pip install --pre --extra-index https://pypi.anaconda.org/scipy-wheels-nightly/simple scikit-learn
 COPY ./download_depccg_model.py /download_depccg_model.py
-RUN python /download_depccg_model.py
 RUN pip install -U depccg
+RUN python /download_depccg_model.py
 RUN depccg_en download
 RUN depccg_en download elmo
 RUN apt-get update && \
