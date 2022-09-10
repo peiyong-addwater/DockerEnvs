@@ -32,8 +32,6 @@ RUN pip install --pre --extra-index https://pypi.anaconda.org/scipy-wheels-night
 COPY ./download_depccg_model.py /download_depccg_model.py
 RUN pip install -U depccg
 RUN python /download_depccg_model.py
-RUN depccg_en download
-RUN depccg_en download elmo
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
         biber \
