@@ -17,3 +17,11 @@ scikit-learn
 jupyterlab
 ipykernel
 noisyopt
+lambeq[extras]
+pennylane-qchem
+pyscf
+openfermion
+openfermionpyscf
+fqe
+spacy
+nltk
