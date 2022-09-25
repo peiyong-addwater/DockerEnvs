@@ -27,3 +27,4 @@ ipykernel
 noisyopt
 projectq
 pennylane_pq
+pipreqs
